@@ -1,6 +1,6 @@
-# Polar EM Field Strength
+# JavaScript Polar Chart EM Field Strength
 
-![Polar EM Field Strength](polarEMFieldStrength.png)
+![JavaScript Polar Chart EM Field Strength](polarEMFieldStrength.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
