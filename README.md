@@ -69,9 +69,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[Polar chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/polarchart.html
-[Polar area series]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/polarareaseriesinterior.html
-[Polar radial axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/interfaces/polaraxisradial.html
-[Polar amplitude axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/classes/polaraxisamplitude.html
-[Polar point]: https://www.arction.com/lightningchart-js-api-documentation/v3.0.1/interfaces/polarpoint.html
+[Polar chart]: https://www.arction.com/lightningchart-js-api-documentation/v3.1.0/classes/polarchart.html
+[Polar area series]: https://www.arction.com/lightningchart-js-api-documentation/v3.1.0/classes/polarareaseriesinterior.html
+[Polar radial axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.1.0/interfaces/polaraxisradial.html
+[Polar amplitude axis]: https://www.arction.com/lightningchart-js-api-documentation/v3.1.0/classes/polaraxisamplitude.html
+[Polar point]: https://www.arction.com/lightningchart-js-api-documentation/v3.1.0/interfaces/polarpoint.html
 
