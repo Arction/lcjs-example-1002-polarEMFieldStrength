@@ -72,9 +72,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Polar chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/PolarChart.html
-[Polar area series]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/PolarAreaSeriesInterior.html
-[Polar radial axis]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/interfaces/PolarAxisRadial.html
-[Polar amplitude axis]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/classes/PolarAxisAmplitude.html
-[Polar point]: https://lightningchart.com/lightningchart-js-api-documentation/v4.0.0/interfaces/PolarPoint.html
+[Polar chart]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/classes/PolarChart.html
+[Polar area series]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/classes/PolarAreaSeriesInterior.html
+[Polar radial axis]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/interfaces/PolarAxisRadial.html
+[Polar amplitude axis]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/classes/PolarAxisAmplitude.html
+[Polar point]: https://lightningchart.com/lightningchart-js-api-documentation/v4.1.0/interfaces/PolarPoint.html
 
