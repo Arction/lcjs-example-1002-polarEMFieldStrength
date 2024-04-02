@@ -11,7 +11,7 @@ const app = (data) => {
     // Create a polar chart.
     const polar = lightningChart()
         .Polar({
-            theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined
+            theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         })
         .setTitle('Electromagnetic field strength')
 
