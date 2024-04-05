@@ -9,7 +9,9 @@ const { lightningChart, Themes } = lcjs
 
 const app = (data) => {
     // Create a polar chart.
-    const polar = lightningChart()
+    const polar = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
         .Polar({
             theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         })
