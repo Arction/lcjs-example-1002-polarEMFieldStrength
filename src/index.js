@@ -2,7 +2,7 @@
  * LightningChartJS example showcasing PolarChart and PolarAreaSeries in a electromagnetic field strength visualization application.
  */
 // Import LightningChartJS
-const lcjs = require('@arction/lcjs')
+const lcjs = require('@lightningchart/lcjs')
 
 // Extract required parts from LightningChartJS.
 const { lightningChart, Themes } = lcjs
@@ -25,16 +25,7 @@ const app = (data) => {
     // Create series for each data set.
     const seriesList = data.map((info) => {
         const { name } = info
-        const polarAreaSeries = polar
-            .addAreaSeries()
-            .setName(name)
-            .setConnectDataAutomaticallyEnabled(true)
-            .setCursorResultTableFormatter((builder, series, angleDeg, amplitude, format) => builder
-                .addRow(`${series.getName()}`)
-                .addRow('Angle', '', `${Math.round(angleDeg)} °`)
-                .addRow('Field strength', '', `${format(amplitude)} A/m`)
-            )
-
+        const polarAreaSeries = polar.addAreaSeries().setName(name).setConnectDataAutomaticallyEnabled(true)
         return polarAreaSeries
     })
 
