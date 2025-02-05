@@ -59,22 +59,22 @@ const app = (data) => {
     // Freeze data animation while mouse is on Chart.
     let mouseOverBackground = false
     let numSeriesOverMouse = false
-    polar.onSeriesBackgroundMouseEnter(() => {
+    polar.seriesBackground.addEventListener('pointerenter', () => {
         mouseOverBackground = true
         freezeData = mouseOverBackground || numSeriesOverMouse > 0
     })
-    polar.onSeriesBackgroundMouseLeave(() => {
+    polar.seriesBackground.addEventListener('pointerleave', () => {
         mouseOverBackground = false
         freezeData = mouseOverBackground || numSeriesOverMouse > 0
     })
     seriesList.forEach((series) =>
-        series.onMouseEnter(() => {
+        series.addEventListener('pointerenter', () => {
             numSeriesOverMouse += 1
             freezeData = mouseOverBackground || numSeriesOverMouse > 0
         }),
     )
     seriesList.forEach((series) =>
-        series.onMouseLeave(() => {
+        series.addEventListener('pointerleave', () => {
             numSeriesOverMouse -= 1
             freezeData = mouseOverBackground || numSeriesOverMouse > 0
         }),
